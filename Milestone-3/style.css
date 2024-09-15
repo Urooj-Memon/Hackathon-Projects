@@ -1,0 +1,94 @@
+body {
+    font-family: rgb(203, 20, 182);
+    margin: 0;
+    padding: 0;
+    background-image: rgb(168, 45, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-image: linear-gradient( 109.6deg,  rgb(212, 143, 184) 11.2%, rgb(186, 151, 182) 91.1% ); 
+     border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(148, 174, 186, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #ae33b2;
+  }
+  
+  h2 {
+    color: #110811;
+    margin-top: 20px;
+    font-size: 1.6em;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #a17d7d;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ca74d2;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    transition-duration: 1s;
+    background-color: #af7cb0;
+  }
+  
+  .resume {
+    margin-top: 30px;
+    text-align: center;
+    background-color: #c595c5;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #c60b62;
+  }
+  
+  .resume img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+      margin: 20px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
