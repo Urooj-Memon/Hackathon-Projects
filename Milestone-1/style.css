@@ -10,8 +10,8 @@
     font-size: 26px;
     font-weight: italic;
     text-align: center;
-    background-color: rgb(231, 159, 234);
-    border-color: rgb(212, 158, 224);
+    background-color: rgb(96, 175, 190);
+    border-color: rgb(9, 175, 225);
     margin: 1%;
     padding: 1%;
     justify-content: right;
@@ -19,16 +19,16 @@
 
 }
 body{
-    background: rgb(216, 212, 216);
+    background: rgb(215, 215, 215);
     
 }
 .container{
-         background:rgb(228, 168, 193);
+         background:rgb(158, 218, 212);
          max-width: 800px;
          margin: 60px auto;
-         height: 1410px;
+         height: 1250px;
          padding: 25px;
-         box-shadow: 0 2px 20px rgba(#cc89e3);
+         box-shadow: 0 2px 20px rgba(#0d5d5d);
 
           
 }
@@ -51,7 +51,7 @@ body{
     border-radius: 50%;
     overflow: hidden;
     margin: 25px auto;
-    border: 15px groove rgb(184, 103, 189); 
+    border: 15px groove rgb(7, 108, 158); 
     
 }
 .img-area img{
@@ -80,7 +80,7 @@ body{
 
 .skills-container {
     margin-top: 20px;
-    padding: 20px;
+    padding: 10px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -92,7 +92,7 @@ body{
 #toggle-skills {
     margin-top: 50px;
     padding: 25px;
-    background-color: #c773d0;
+    background-color: #148897;
     color: white;
     border: none;
     border-radius: 8px;
@@ -104,7 +104,7 @@ body{
   }
   
   #toggle-skills:hover {
-    background-color: #cc89e3;
+    background-color: #50a2ce;
     transition-duration: 1s;
     
   }
